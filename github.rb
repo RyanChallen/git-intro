@@ -5,7 +5,7 @@ changes = false
 puts "There are #{changes == true ? "" : "no"} changes".
 
 # Make a change here.
-changes = false
+changes = true
 
 if changes == true
   puts "we need to add and commit our changes"
@@ -16,3 +16,5 @@ end
 if commit = true
   puts "We push our changes to github"
 end
+
+# This is a comment
